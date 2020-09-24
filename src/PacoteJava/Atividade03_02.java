@@ -9,7 +9,7 @@ public class Atividade03_02 {
         int idade, contM = 0, cabeloC = 0;
         double porcento = 0;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 300; i++) {
             String sexoInf = JOptionPane.showInputDialog(null, "Insira o sexo da " + (i + 1) + "º pessoa \n"
                     + "'F' para feminino ou 'M' para masculino");
             sexo = sexoInf.charAt(0);
